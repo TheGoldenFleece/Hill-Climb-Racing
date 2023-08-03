@@ -96,12 +96,9 @@ public class MapGenerator : MonoBehaviour
 
     void GenerateGround()
     {
-        //remove previous
         spriteShapeController.spline.Clear();
 
         int point = 0;
-
-        //first points should be smooth
 
         for (; point < 5; point++)
         {
